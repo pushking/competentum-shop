@@ -1,0 +1,9 @@
+@import "../valo/valo.scss";
+
+@mixin competentumshop {
+  @include valo;
+
+  .newCustomer {
+    background-color: palegreen;
+  }
+}

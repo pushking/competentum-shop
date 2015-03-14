@@ -1,0 +1,11 @@
+@import "competentumshop";
+@import "addons.scss";
+
+// This file prefixes all rules with the theme name to avoid causing conflicts with other themes.
+// The actual styles should be defined in competentumshop.scss
+
+.competentumshop {
+  @include addons;
+  @include competentumshop;
+
+}
